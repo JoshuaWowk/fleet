@@ -27,7 +27,7 @@ services:
       # This is required by Percona XtraDB server.
       CLUSTER_NAME: fleet
     ports:
-      - "3306:3306"
+      - "3326:3306"
 
   mysql_test:
     image: ${FLEET_MYSQL_IMAGE:-mysql:5.7.21}
